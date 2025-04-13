@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project>
+	<metadata>
+		<version smartsim="1.4"/>
+	</metadata>
+	<name>Display</name>
+	<description></description>
+	<component>memd4.ssc</component>
+	<component>decoder4.ssc</component>
+	<component root="true">disp4.ssc</component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project>
+	<metadata>
+		<version smartsim="1.4"/>
+	</metadata>
+	<name>ENA</name>
+	<description></description>
+	<component>mem/dflip.ssc</component>
+	<component>mem/dcd8.ssc</component>
+	<component>alu/full adder.ssc</component>
+	<component>mult/mult8.ssc</component>
+	<component>mem/pc-harvard.ssc</component>
+	<component>cpu8/instructioners.ssc</component>
+	<component root="true">cpu8/core.ssc</component>
+	<component>mem/dsm.ssc</component>
+	<component>mem/dcd64.ssc</component>
+	<component>mem/mem8x1.ssc</component>
+	<component>alu/alurom.ssc</component>
+	<component>mem/mem64x1.ssc</component>
+	<component>mem/mem8x8.ssc</component>
+	<component>alu/8-Bit Full Adder.ssc</component>
+	<component>mem/reg8x1.ssc</component>
+	<component>mem/mem64x16.ssc</component>
+	<component>mem/reg8x8.ssc</component>
+	<component>cpu8/harvard.ssc</component>
+</project>

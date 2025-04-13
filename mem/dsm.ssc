@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<custom_component>
+	<metadata>
+		<version smartsim="1.4"/>
+	</metadata>
+	<name>D-Small</name>
+	<description></description>
+	<label></label>
+	<bound right="0" down="0" left="0" up="0"/>
+	<colour a="255" r="246" g="211" b="45"/>
+	<pin x="0" y="0" length="5" direction="left" id="0" flow="in" required="true"/>
+	<pin x="0" y="0" length="5" direction="right" id="1" flow="out" required="true"/>
+	<pin x="0" y="0" length="5" direction="up" id="2" flow="in" required="true"/>
+	<wire id="0">
+		<path>
+			<point x="-15" y="-40"/>
+			<point x="-25" y="-40"/>
+		</path>
+		<tag type="interface" xwire="-25" ywire="-40" xtag="-30" ytag="-40" flow="in" pinid="0" text="I"/>
+	</wire>
+	<wire id="1">
+		<path>
+			<point x="0" y="-55"/>
+			<point x="0" y="-65"/>
+		</path>
+		<tag type="interface" xwire="0" ywire="-65" xtag="0" ytag="-70" flow="in" pinid="2" text="L"/>
+	</wire>
+	<wire id="2">
+		<path>
+			<point x="15" y="-40"/>
+			<point x="25" y="-40"/>
+		</path>
+		<tag type="interface" xwire="25" ywire="-40" xtag="30" ytag="-40" flow="out" pinid="1" text="O"/>
+	</wire>
+	<component id="0" def="D-flip" x="0" y="-40" direction="right" flip="false">
+		<connection flow="in" pinid="0" wireid="0" invert="false"/>
+		<connection flow="out" pinid="1" wireid="2" invert="false"/>
+		<connection flow="in" pinid="2" wireid="1" invert="false"/>
+	</component>
+</custom_component>

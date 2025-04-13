@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project>
+	<metadata>
+		<version smartsim="1.4"/>
+	</metadata>
+	<name>mem</name>
+	<description></description>
+	<component>dflip.ssc</component>
+	<component>dcd8.ssc</component>
+	<component>dsm.ssc</component>
+	<component>dcd64.ssc</component>
+	<component>mem8x1.ssc</component>
+	<component>mem64x1.ssc</component>
+	<component>mem8x8.ssc</component>
+	<component root="true">mem64x16.ssc</component>
+</project>

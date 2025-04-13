@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<custom_component>
+	<metadata>
+		<version smartsim="1.4"/>
+	</metadata>
+	<name>PC-H</name>
+	<description></description>
+	<label>PC-H</label>
+	<bound right="25" down="10" left="-25" up="-10"/>
+	<colour a="255" r="246" g="211" b="45"/>
+	<component id="0" def="T Flipflop" x="-110" y="-180" direction="right" flip="false">
+		<connection flow="in" pinid="0" wireid="null" invert="false"/>
+		<connection flow="in" pinid="1" wireid="null" invert="false"/>
+		<connection flow="out" pinid="2" wireid="null" invert="false"/>
+		<connection flow="out" pinid="3" wireid="null" invert="false"/>
+	</component>
+	<component id="1" def="T Flipflop" x="30" y="-180" direction="right" flip="false">
+		<connection flow="in" pinid="0" wireid="null" invert="false"/>
+		<connection flow="in" pinid="1" wireid="null" invert="false"/>
+		<connection flow="out" pinid="2" wireid="null" invert="false"/>
+		<connection flow="out" pinid="3" wireid="null" invert="false"/>
+	</component>
+	<component id="2" def="T Flipflop" x="170" y="-180" direction="right" flip="false">
+		<connection flow="in" pinid="0" wireid="null" invert="false"/>
+		<connection flow="in" pinid="1" wireid="null" invert="false"/>
+		<connection flow="out" pinid="2" wireid="null" invert="false"/>
+		<connection flow="out" pinid="3" wireid="null" invert="false"/>
+	</component>
+	<component id="3" def="T Flipflop" x="310" y="-180" direction="right" flip="false">
+		<connection flow="in" pinid="0" wireid="null" invert="false"/>
+		<connection flow="in" pinid="1" wireid="null" invert="false"/>
+		<connection flow="out" pinid="2" wireid="null" invert="false"/>
+		<connection flow="out" pinid="3" wireid="null" invert="false"/>
+	</component>
+	<component id="4" def="T Flipflop" x="450" y="-180" direction="right" flip="false">
+		<connection flow="in" pinid="0" wireid="null" invert="false"/>
+		<connection flow="in" pinid="1" wireid="null" invert="false"/>
+		<connection flow="out" pinid="2" wireid="null" invert="false"/>
+		<connection flow="out" pinid="3" wireid="null" invert="false"/>
+	</component>
+	<component id="5" def="T Flipflop" x="-250" y="-180" direction="right" flip="false">
+		<connection flow="in" pinid="0" wireid="null" invert="false"/>
+		<connection flow="in" pinid="1" wireid="null" invert="false"/>
+		<connection flow="out" pinid="2" wireid="null" invert="false"/>
+		<connection flow="out" pinid="3" wireid="null" invert="false"/>
+	</component>
+</custom_component>
